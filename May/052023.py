@@ -8,3 +8,5 @@ A = set(A)
 B = list(B - A)
 print(min(B))
 print(max(B))
+
+#연속된 수가 있을 경우 1차이로 구하는 해법은 통하지 않음.
