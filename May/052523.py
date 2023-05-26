@@ -51,3 +51,4 @@ for b in range(max_num):
     for a in range(5):
         print(arr[a][b], end="")
 '''
+
