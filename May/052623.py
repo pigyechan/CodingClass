@@ -23,3 +23,14 @@ print(cnt)
 리스트의 특성을 사용해서 1로 채워주고 아님 지나치고를 반복한 뒤,
 1의 숫자를 세어주는 방법... 똑똑하다
 '''
+#1292
+a, b = map(int, input().split())
+i = []
+
+for j in range(1, 47):
+    for m in range(j):
+        i.append(j)
+    if len(i) >= b:
+        break
+
+print(sum(i[a-1:b:1]))
